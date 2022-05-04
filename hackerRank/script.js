@@ -1,8 +1,8 @@
 function compareTriplets(a, b) {
     // Write your code here
     let score = [0,0];
-    let aliceScore = score[0];
-    let bobScore = score[1];
+    //let aliceScore = score[0];
+    //let bobScore = score[1];
     for (let i=0; i < a.length; i++){
         if(a[i]>b[i]) {
             aliceScore +=1;
